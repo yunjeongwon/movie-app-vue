@@ -8,6 +8,8 @@ from ..models import Movie, Genre, Tag, Comment
 User = get_user_model()
 
 
+
+
 class GenreSerializer(serializers.ModelSerializer):
     class Meta:
       model = Genre
@@ -55,4 +57,5 @@ class MovieDetailSerializer(serializers.ModelSerializer):
   class Meta:
     model = Movie
     fields = ('pk', 'poster_url', 'title', 'running_time', 'genre', 'tag', 'release_year', 'description', 'trailer_url', 'age_range', 'comments',)
+
 
