@@ -15,16 +15,24 @@ class Tag(models.Model):
 
 class Movie(models.Model):
   wish_users = models.ManyToManyField(User, related_name="wish_movies")
-  genre = models.ManyToManyField(Genre, related_name="genre_movies")
-  tag = models.ManyToManyField(Tag, related_name="tag_movies")
+  genre_ids = models.ManyToManyField(Genre, related_name="genre_movies")
+  tag_ids = models.ManyToManyField(Tag, related_name="tag_movies")
 
+  # adult = models.BooleanField()
+  original_language = models.CharField(max_length=10)
+  original_title = models.CharField(max_length=100)
+  overview = models.TextField()
+  popularity = models.FloatField()
+  poster_path = models.CharField(max_length=200)
+  release_date = models.CharField(max_length=20)
   title = models.CharField(max_length=100)
+  vote_average = models.FloatField()
+  vote_count = models.IntegerField()
+
   running_time = models.IntegerField()
-  description = models.TextField()
-  age_range = models.IntegerField()
-  release_year = models.IntegerField()
-  trailer_url = models.TextField()
-  poster_url = models.TextField()
+  trailer_path = models.TextField()
+
+  # video = models.BooleanField()
 
 
 class Comment(models.Model):
