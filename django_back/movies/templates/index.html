@@ -16,7 +16,7 @@
     <br>
     <hr>
     {% for movie in movies %}
-    <a href="{% url 'movies:detail' movie.pk %}" class="text-decoration-none mx-3">{{movie.title}}</a>
+    {% comment %} <a href="{% url 'movies:detail' movie.pk %}" class="text-decoration-none mx-3">{{movie.title}}</a> {% endcomment %}
  
     
     <hr>

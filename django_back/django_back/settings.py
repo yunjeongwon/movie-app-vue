@@ -148,6 +148,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #     'http://localhost:8000'
 # ]
 
+AUTH_USER_MODEL = 'accounts.User'
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 SITE_ID = 1

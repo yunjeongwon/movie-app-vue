@@ -1,37 +1,36 @@
 from django.forms import forms
 from django import forms
-from .models import Movie
+from .models import Movie, Genre, Tag
 
-class MovieForm(forms.modelForm):
+
+class MovieForm(forms.ModelForm):
     title = forms.CharField(
         label='Title',
         widget=forms.TextInput(
             attrs={
                 'class' : 'my-title from-control',
-                'maxlength' : 20,
+                'maxlength' : 100,
                 'placeholder': 'Title'
             }
 
         )
     )
-    running_time = forms.CharField(
+    running_time = forms.IntegerField(
         label='Running_time',
         widget=forms.TextInput(
             attrs={
                 'class' : 'from-control',
-                'maxlength' : 5,
                 'placeholder': 'running_time'
             }
 
         )
     )
 
-    release_year = forms.CharField(
+    release_year = forms.IntegerField(
         label='Release_year',
         widget=forms.TextInput(
             attrs={
                 'class' : 'from-control',
-                'maxlength' : 10,
                 'placeholder': 'release_year'
             }
 
@@ -46,46 +45,37 @@ class MovieForm(forms.modelForm):
         ('50대 이상','50대 이상'),
 
     )
-    age_range = forms.ChoiceField(        
+    age_range = forms.ChoiceField(
         label='Age_range',
         choices = age_choice,
         widget=forms.Select(
             attrs={
                 'class' : 'form-control'
             }
-
         )
     )
 
-    genere_choice = (
-        ('액션','액션'),
-        ('드라마','드라마'),
-        ('코미디', '코미디'),
-        ('공포', '공포'),
-        ('로맨스', '로맨스'),
+    genre_choice = (
+        ('1','액션'),
+        ('2','드라마'),
+        ('3', '코미디'),
+        ('4', '공포'),
+        ('5', '로맨스'),
     )
-    genere = forms.ChoiceField(        
+    genre = forms.ModelMultipleChoiceField(
         label='Genre',
-        choices = genere_choice,
-        widget=forms.RadioSelect(
-            attrs={
-                'class' : 'form-control'
-            }
-
-        )
+        queryset=Genre.objects.all(),
+        # choices = genre_choice,
+        widget=forms.SelectMultiple(),
     )
     tag_Choice =(
         ('화려함','화려함'),
     )
-    tag = forms.ChoiceField(        
+    tag = forms.ModelMultipleChoiceField(
         label='tag',
-        choices = tag_Choice,
-        widget=forms.RadioSelect(
-            attrs={
-                'class' : 'form-control'
-            }
-
-        )
+        queryset=Tag.objects.all(),
+        # choices = tag_Choice,
+        widget=forms.SelectMultiple()
     )
     poster_url = forms.CharField(
         label='Poster url',
@@ -93,7 +83,6 @@ class MovieForm(forms.modelForm):
             attrs={
                 'placeholder': 'Poster url'
             }
-
         )
     )
     trailer_url = forms.CharField(
@@ -117,4 +106,5 @@ class MovieForm(forms.modelForm):
 
     class Meta:
         model = Movie
-        fields = '__all__'
+        # fields = '__all__'
+        exclude = ('wish_users',)
