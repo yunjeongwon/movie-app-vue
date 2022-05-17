@@ -9,14 +9,16 @@
     {
       "id": 1,
       "poster_url": "https://poster.com/poster/1",
+      "title": "아이언맨",
+      "running_time": 100,
+      "gerne": "액션",
+      "tag": "감동",
     }
   ],
-  "actionMovies": [
-    {
-      "id": 2,
-      "poster_url": "https://poster.com/poster/2",
-    }
-  ]
+  "actionMovies": [],
+  "성민님추천영화": [],
+  "정원님추천영화": [],
+  "시험 끝나면 이것부터 조진다": [],
 }
 ```
 
@@ -28,6 +30,10 @@
     {
       "id": 1,
       "poster_url": "https://poster.com/poster/1",
+      "title": "아이언맨",
+      "running_time": 100,
+      "gerne": "액션",
+      "tag": "감동",
     }
   ]
 }
@@ -41,6 +47,8 @@
     {
       "id": 1,
       "poster_url": "https://poster.com/poster/1",
+      "title": "아이언맨",
+      "release_year": 2017,
     }
   ]
 }
@@ -52,6 +60,21 @@
 {
   "id": 1,
   "poster_url": "https://poster.com/poster/1",
+  "title": "아이언맨",
+  "running_time": 100,
+  "gerne": [{
+    1: "액션",
+    2: "로맨스",
+  }],
+  "tag": [{
+    1: "감동",
+    2: "화려함",
+  }],
+  "release_year": 2017,
+  "description": "줄거리줄거리줄거리",
+  "trailer_url": "https://poster.com/trailer/1",
+  "age_range": 15,
+  "comments": [],
 }
 ```
 
@@ -59,10 +82,14 @@
 /likes
 ```json
 {
-  "likeMovies": [
+  "movies": [
     {
       "id": 1,
       "poster_url": "https://poster.com/poster/1",
+      "title": "아이언맨",
+      "running_time": 100,
+      "gerne": "액션",
+      "tag": "감동",
     }
   ]
 }
@@ -72,10 +99,14 @@
 /evaulated_list
 ```json
 {
-  "evaulatedMovies": [
+  "movies": [
     {
       "id": 1,
       "poster_url": "https://poster.com/poster/1",
+      "title": "아이언맨",
+      "running_time": 100,
+      "gerne": "액션",
+      "tag": "감동",
     }
   ]
 }
