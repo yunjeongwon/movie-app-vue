@@ -1,3 +1,6 @@
-# from django.auth.
+from django.contrib.auth.models import AbstractUser
 
-# class 
+
+class User(AbstractUser):
+  pass
+
