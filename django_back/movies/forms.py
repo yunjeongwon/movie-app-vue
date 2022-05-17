@@ -1,3 +1,4 @@
+from django.forms import forms
 from django import forms
 from .models import Movie
 
@@ -37,12 +38,12 @@ class MovieForm(forms.modelForm):
         )
     )
     age_choice = (
-        ('10대 이하','10대 이하')
-        ('10대','10대')
-        ('20대','20대')
-        ('30대','30대')
-        ('40대','40대')
-        ('50대 이상','50대 이상')
+        ('10대 이하','10대 이하'),
+        ('10대','10대'),
+        ('20대','20대'),
+        ('30대','30대'),
+        ('40대','40대'),
+        ('50대 이상','50대 이상'),
 
     )
     age_range = forms.ChoiceField(        
