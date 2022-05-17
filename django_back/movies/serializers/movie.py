@@ -7,17 +7,19 @@ from ..models import Movie, Genre, Tag, Comment
 
 User = get_user_model()
 
+
 class GenreSerializer(serializers.ModelSerializer):
     class Meta:
       model = Genre
       fields = ('name',)
-  
+
 class TagSerializer(serializers.ModelSerializer):
   class Meta:
     model = Tag
     fields = ('name',)
 
 
+# 홈, 검색, wish, evaluated
 class MovieSerializer(serializers.ModelSerializer):
   genre = GenreSerializer(many=True)
   tag = TagSerializer(many=True)
@@ -26,13 +28,13 @@ class MovieSerializer(serializers.ModelSerializer):
     model = Movie
     fields = ('pk', 'poster_url', 'title', 'running_time', 'genre', 'tag',)
 
-
+# 평가 페이지
 class MovieEvaluateSerializer(serializers.ModelSerializer):
   class Meta:
     model = Movie
     fields = ('pk', 'poster_url', 'title', 'release_year',)
 
-
+# 디테일
 class MovieDetailSerializer(serializers.ModelSerializer):
   class CommentSerializer(serializers.ModelSerializer):
     class UserSerializer(serializers.ModelSerializer):
@@ -53,3 +55,4 @@ class MovieDetailSerializer(serializers.ModelSerializer):
   class Meta:
     model = Movie
     fields = ('pk', 'poster_url', 'title', 'running_time', 'genre', 'tag', 'release_year', 'description', 'trailer_url', 'age_range', 'comments',)
+

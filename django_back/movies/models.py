@@ -14,7 +14,7 @@ class Tag(models.Model):
 
 
 class Movie(models.Model):
-  like_users = models.ManyToManyField(User, related_name="like_movies")
+  wish_users = models.ManyToManyField(User, related_name="wish_movies")
   genre = models.ManyToManyField(Genre, related_name="genre_movies")
   tag = models.ManyToManyField(Tag, related_name="tag_movies")
 
