@@ -925,10 +925,10 @@
         "title": "수퍼 소닉 3",
         "vote_average": 0,
         "vote_count": 0,
-        "trailer_path": "없음",
+        "trailer_path": "https://www.youtube.com/watch?v=SDrp0XUGXB0",
         "running_time": 100,
         "tag_ids": [
-            
+            39
         ]
     },
     {
@@ -947,9 +947,10 @@
         "vote_average": 6.2,
         "vote_count": 42,
         "trailer_path": "없음",
-        "running_time": 100,
+        "running_time": 88,
         "tag_ids": [
-            
+            878,
+            38
         ]
     },
     {
@@ -970,10 +971,11 @@
         "title": "씽2게더",
         "vote_average": 8.1,
         "vote_count": 2729,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=ywmOxCwBA4k",
+        "running_time": 110,
         "tag_ids": [
-            
+            10749,
+            39
         ]
     },
     {
@@ -991,10 +993,10 @@
         "title": "Bull Shark",
         "vote_average": 5.8,
         "vote_count": 22,
-        "trailer_path": "없음",
+        "trailer_path": "https://www.youtube.com/watch?v=BqlX6LAdIc4",
         "running_time": 100,
         "tag_ids": [
-            
+            38
         ]
     },
     {
@@ -1014,10 +1016,11 @@
         "title": "이터널스",
         "vote_average": 7.1,
         "vote_count": 5541,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=JGW4Ec2Hyhc",
+        "running_time": 115,
         "tag_ids": [
-            
+            99,
+            10770
         ]
     },
     {
@@ -1036,10 +1039,11 @@
         "title": "출구는 없다",
         "vote_average": 6.7,
         "vote_count": 444,
-        "trailer_path": "없음",
+        "trailer_path": "https://www.youtube.com/watch?v=GFvupyiNEz0",
         "running_time": 100,
         "tag_ids": [
-            
+            12,
+            27
         ]
     },
     {
@@ -1058,10 +1062,13 @@
         "title": "여름밤을 달려 봐",
         "vote_average": 6.9,
         "vote_count": 68,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=eZ-_VK-oNOw",
+        "running_time": 107,
         "tag_ids": [
-            
+            16,
+            27,
+            10770,
+            10752
         ]
     },
     {
@@ -1082,10 +1089,12 @@
         "title": "샹치와 텐 링즈의 전설",
         "vote_average": 7.7,
         "vote_count": 6436,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=Pj7CadRf82k",
+        "running_time": 132,
         "tag_ids": [
-            
+            99,
+            10770,
+            53
         ]
     },
     {
@@ -1104,10 +1113,11 @@
         "title": "블랙 크랩",
         "vote_average": 6.3,
         "vote_count": 431,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=fmjKsL_-rfw",
+        "running_time": 113,
         "tag_ids": [
-            
+            10402,
+            53
         ]
     },
     {
@@ -1128,10 +1138,12 @@
         "title": "아바타",
         "vote_average": 7.5,
         "vote_count": 25393,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=zS0BA8FnnKc",
+        "running_time": 162,
         "tag_ids": [
-            
+            16,
+            10770,
+            53
         ]
     },
     {
@@ -1152,10 +1164,11 @@
         "title": "수퍼 소닉",
         "vote_average": 7.4,
         "vote_count": 7964,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=NM8zgOYc9tQ",
+        "running_time": 98,
         "tag_ids": [
-            
+            99,
+            39
         ]
     },
     {
@@ -1173,10 +1186,10 @@
         "title": "더 리퀸",
         "vote_average": 4.8,
         "vote_count": 112,
-        "trailer_path": "없음",
+        "trailer_path": "https://www.youtube.com/watch?v=gt6niWvJxHQ",
         "running_time": 100,
         "tag_ids": [
-            
+            38
         ]
     },
     {
@@ -1197,10 +1210,12 @@
         "title": "아바타: 물의 길",
         "vote_average": 0,
         "vote_count": 0,
-        "trailer_path": "없음",
-        "running_time": 100,
+        "trailer_path": "https://www.youtube.com/watch?v=7Q70_m-59O8",
+        "running_time": 120,
         "tag_ids": [
-            
+            16,
+            10770,
+            53
         ]
     }
 ]
