@@ -144,10 +144,11 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8000'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:8000'
+# ]
 
+CORS_ALLOW_ALL_ORIGINS = True
 
 SITE_ID = 1
 
@@ -156,6 +157,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
+        # 'rest_framework.permissions.IsAuthenticated',
     ]
 }
