@@ -12,28 +12,25 @@ class Genre(models.Model):
 class Tag(models.Model):
   name = models.CharField(max_length=50)
 
-
 class Movie(models.Model):
+  ids = models.IntegerField()
   evaluate_users = models.ManyToManyField(User, related_name="evaluate_movies")
   wish_users = models.ManyToManyField(User, related_name="wish_movies")
-  genre_ids = models.ManyToManyField(Genre, related_name="genre_movies")
-  tag_ids = models.ManyToManyField(Tag, related_name="tag_movies")
+  genre_ids = models.ManyToManyField(Genre, related_name="genre_movies") #
+  tag_ids = models.ManyToManyField(Tag, related_name="tag_movies") #
+  backdrop_path = models.CharField(max_length=200) #
+  original_language = models.CharField(max_length=10) #
+  original_title = models.CharField(max_length=100) # 
+  overview = models.TextField() # 
+  popularity = models.FloatField() #
+  poster_path = models.CharField(max_length=200) #
+  release_date = models.CharField(max_length=20)#
+  title = models.CharField(max_length=100) #
+  vote_average = models.FloatField() #
+  vote_count = models.IntegerField() #
+  running_time = models.IntegerField() #
+  trailer_path = models.TextField() #
 
-  # adult = models.BooleanField()
-  original_language = models.CharField(max_length=10)
-  original_title = models.CharField(max_length=100)
-  overview = models.TextField()
-  popularity = models.FloatField()
-  poster_path = models.CharField(max_length=200)
-  release_date = models.CharField(max_length=20)
-  title = models.CharField(max_length=100)
-  vote_average = models.FloatField()
-  vote_count = models.IntegerField()
-
-  running_time = models.IntegerField()
-  trailer_path = models.TextField()
-
-  # video = models.BooleanField()
 
 
 class Comment(models.Model):
