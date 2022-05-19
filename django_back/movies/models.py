@@ -14,6 +14,7 @@ class Tag(models.Model):
 
 
 class Movie(models.Model):
+  evaluate_users = models.ManyToManyField(User, related_name="evaluate_movies")
   wish_users = models.ManyToManyField(User, related_name="wish_movies")
   genre_ids = models.ManyToManyField(Genre, related_name="genre_movies")
   tag_ids = models.ManyToManyField(Tag, related_name="tag_movies")
@@ -40,3 +41,10 @@ class Comment(models.Model):
   movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name="comments")
   content = models.TextField()
   score = models.FloatField()
+
+
+
+class Evaluate(models.Model):
+  user = models.ForeignKey(User, on_delete=models.CASCADE)
+  movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+  score = models.IntegerField()
