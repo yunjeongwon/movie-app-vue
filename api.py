@@ -7,11 +7,11 @@ path('<int:movie_pk>/wish/', views.wish_movie),  #  보고싶어요 기능(보�
 
 
 # 나의 보고싶어요 영화 보내주기
-path('wished/', views.wished_movie),  # 보고싶어요한 영화 보내주기
+path('wished/', views.wished_movies),  # 보고싶어요한 영화 보내주기
 
 
 # 나의 평가한 영화 보내주기
-path('evaluated/', views.evaluated_movie),  # 평가한 영화 보내주기
+path('evaluated/', views.evaluated_movies),  # 평가한 영화 보내주기
 
 
 # 검색한 영화 보내주기
@@ -21,6 +21,10 @@ path('search/', views.search_movie),  # 검색한 결과 보내주기
 # 평가하기
 path('evaluate/', views.evaluate_movie),  # 영화 평가하기
 # 평가할 때마다 연산해서 각 유저에 좋아하는 영화 장르, 특성을 저장
+
+
+# 평가 제거하기
+path('evaluate/delete', views.delete_evaluated_movie),  # 영화 평가하기
 
 
 # 홈 추천 영화

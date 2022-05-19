@@ -3,7 +3,8 @@
 
 ---
 / URL을 통해 HomeView 컴포넌트 렌더링
-HomeView에 MovieCard 컴포넌트 렌더링
+HomeView에 MovieList 컴포넌트 렌더링
+MovieList MovieCard 컴포넌트 렌더링
 
 ---
 /search URL을 통해 SearchView 컴포넌트 렌더링
@@ -12,11 +13,14 @@ SearchView에 MovieCard 컴포넌트 렌더링
 
 ---
 /evaluate URL을 통해 EvaluateView 컴포넌트 렌더링
-EvaluateView MovieCard 컴포넌트 렌더링
+EvaluateView에 MovieEvalute 컴포넌트 렌더링
 
 ---
 /movies/:pk URL을 통해 MovieDetailView 컴포넌트 렌더링
+MovieDetailView MovieEvalute 컴포넌트 렌더링 or MovieCard
 MovieDetailView에 MovieDetail 컴포넌트 렌더링
+(평가 취소 버튼)
+
 MovieDetailView에 CommentList 컴포넌트 렌더링
 MovieDetailView에 CommentListItem 컴포넌트 렌더링
 MovieDetailView에 CommentForm 컴포넌트 렌더링
@@ -26,7 +30,7 @@ MovieDetailView에 CommentForm 컴포넌트 렌더링
 WishesView에 MovieCard 컴포넌트 렌더링
 
 ---
-/evaulatedMovies URL을 통해 EvaluatedMovieView 컴포넌트 렌더링
+/evaulated URL을 통해 EvaluatedMovieView 컴포넌트 렌더링
 EvaluatedMovieView에 MovieCard 컴포넌트 렌더링
 
 ---
