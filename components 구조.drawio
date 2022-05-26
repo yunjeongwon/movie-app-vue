@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T03:42:48.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="i6JsHsQ810khK3z4cLS1" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T08:09:57.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="D1Iicdl3X85vW5FGtmYe" version="18.1.1" type="github">
   <diagram id="vCJKHM8MTHylu7gDaNj6" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,13 +29,13 @@
           <mxGeometry x="860" y="280" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g4FmbD9YvOIgmVQWyCMX-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieCard.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="420" width="170" height="110" as="geometry" />
+          <mxGeometry x="40" y="585" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g4FmbD9YvOIgmVQWyCMX-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieCard.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="430" width="170" height="110" as="geometry" />
+          <mxGeometry x="50" y="595" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g4FmbD9YvOIgmVQWyCMX-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieCard.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="440" width="170" height="110" as="geometry" />
+          <mxGeometry x="60" y="605" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g4FmbD9YvOIgmVQWyCMX-30" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieCard.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="420" width="170" height="110" as="geometry" />
@@ -116,12 +116,6 @@
             <mxPoint x="742" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g4FmbD9YvOIgmVQWyCMX-56" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="g4FmbD9YvOIgmVQWyCMX-27" target="g4FmbD9YvOIgmVQWyCMX-23" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="430" as="sourcePoint" />
-            <mxPoint x="180" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="g4FmbD9YvOIgmVQWyCMX-57" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="g4FmbD9YvOIgmVQWyCMX-30" target="g4FmbD9YvOIgmVQWyCMX-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="430" as="sourcePoint" />
@@ -149,9 +143,9 @@
         <mxCell id="g4FmbD9YvOIgmVQWyCMX-63" value="MovieDetailView.vue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="260" y="600" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="g4FmbD9YvOIgmVQWyCMX-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g4FmbD9YvOIgmVQWyCMX-29" target="g4FmbD9YvOIgmVQWyCMX-63" edge="1">
+        <mxCell id="g4FmbD9YvOIgmVQWyCMX-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;entryX=-0.005;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="g4FmbD9YvOIgmVQWyCMX-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="230" y="670" as="sourcePoint" />
             <mxPoint x="440" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -237,6 +231,39 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1440" y="280" as="sourcePoint" />
             <mxPoint x="1440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ProfileView.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="280" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="2sOBMaJF2EFx8bmg0liF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="260" as="sourcePoint" />
+            <mxPoint x="1540" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1895" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieCard.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieCard.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MovieList.vue&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.618;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g4FmbD9YvOIgmVQWyCMX-23" target="2sOBMaJF2EFx8bmg0liF-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sOBMaJF2EFx8bmg0liF-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.618;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2sOBMaJF2EFx8bmg0liF-5" target="g4FmbD9YvOIgmVQWyCMX-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
